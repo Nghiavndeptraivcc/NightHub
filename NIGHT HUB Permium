@@ -1,0 +1,121 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "NIGHT HUB", HidePremium = false, IntroText = "NIGHT HUB", SaveConfig = true, ConfigFolder = "NIGHT HUB Libarly"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "Auto Fram",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Fram Katakuri",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Fram bone",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto fram Mastery",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Fast Attack",
+	Default = true,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Teleport",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "teleport Island",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "DF and Raid",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "Esp Fruits",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Find Fruits",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Store",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Hop Fruits",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
