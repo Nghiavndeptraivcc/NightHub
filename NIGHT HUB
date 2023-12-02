@@ -2190,6 +2190,18 @@ spawn(function()
     end
 end)
 
+local PosList = {"10", "15", "20", "25", "30"}
+G:AddDropdown({
+	Name = "Pos Y",
+	Default = "15",
+	Options = PosList,
+    Flag = "Pos Y",
+    Save = true,
+	Callback = function(Value)
+		Pos Y = Value
+	end    
+})
+
 local Section = G:AddSection({
 	Name = "Level Farm"
 })
